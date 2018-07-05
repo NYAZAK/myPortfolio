@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css";
+body { margin: 0; }
+
+
+.mat-drawer-container{
+    overflow: visible !important; /*-bug angular materiel ajoute visible pour avoir la vue sur le menu-*/
+   }
