@@ -1,8 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+<<<<<<< Updated upstream
 @import "../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css";
 body { margin: 0; }
+=======
+<<<<<<< Updated upstream
+=======
+@import "../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body { 
+    background: url('./assets/img-layout/cool-background.svg')center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+>>>>>>> Stashed changes
 
 
 .mat-drawer-container{
     overflow: visible !important; /*-bug angular materiel ajoute visible pour avoir la vue sur le menu-*/
+<<<<<<< Updated upstream
    }
+=======
+   }
+
+.nav-link{
+    width: 25%;
+    float:left;
+    color:orange;
+}
+
+.nav-link i {
+    color:black;
+}
+
+.nav-link i:hover{
+    color:whitesmoke;
+}
+
+.nav-link:hover{
+    color:black;
+}
+
+.mat-card{
+ padding-bottom:80px !important;
+}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
