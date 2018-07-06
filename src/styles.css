@@ -40,3 +40,9 @@ body {
 .mat-card{
  padding-bottom:80px !important;
 }
+
+
+
+.mat-drawer-container{
+    background: transparent !important;
+}
