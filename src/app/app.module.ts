@@ -7,7 +7,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { Routes, RouterModule, Router} from '@angular/router';
 import { MatToolbarModule, MatCardModule,  MatButtonModule, MatSidenavModule, MatTooltipModule,
-  MatIconModule, MatListModule, MatGridListModule, MatMenuModule } from '@angular/material';
+  MatIconModule, MatListModule, MatInputModule, MatSelectModule, 
+  MatFormFieldModule, MatGridListModule, MatMenuModule } from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { ContactComponent } from './contact/contact.component';
@@ -32,6 +33,8 @@ const ROUTES: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     LayoutModule,
+    MatSelectModule,
+    MatFormFieldModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
@@ -39,6 +42,7 @@ const ROUTES: Routes = [
     MatListModule,
     MatCardModule,
     MatGridListModule,
+    MatInputModule,
     MatMenuModule,
     MatTooltipModule,
     RouterModule.forRoot(ROUTES),
