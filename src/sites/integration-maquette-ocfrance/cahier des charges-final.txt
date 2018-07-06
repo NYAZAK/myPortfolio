@@ -1,0 +1,17 @@
+Today’s featured freebie is Minimo, a minimal but elegant blog template designed by Chiara Canderan, a graphic designer based in Italy.
+
+Réunion du mardi 23 janvier 2018 :
+Présents : Chiara Canderan et Zakaria Nya,
+
+
+Mise en situation : Chiara Canderan est une professionnelle du design. Elle possède un atelier de design en Italie. Et c’est depuis ce lieu qu’elle me contacte par Skype pour notre entrevue. 
+ 
+
+Durant notre réunion professionnelle, madame Chiara m’a présenté son voeu : intégrer son template « Minimo », qu’elle a designé elle-même dans son atelier. Il s’agit d’un one-page présentant son propre style de vie. Elle veut mettre ce style de vie en valeur, et donc veut qu’elle soit présente partout sur la toile. Je lui prête main forte et je mets toutes mes connaissances, et toute mon expertise à son service. Pour commencer, j’ai donc étudié son psd, qu’elle a elle-même fourni, et cela par étapes. Étapes du design et des choix de la charte graphique, et de médias. Étapes des technologies qu’elle souhaite voir sur son site web. Et enfin, le sommet de notre parcours,  Chiara souhaite que les tons de gris ressortent, que les couleurs de son one-page soient flates. On se dirige donc vers un flate-design.  Et que ça reste minimaliste.  Elle souhaite garder le logo sous la forme d’un svg directement intégré sur la page. Elle veut aussi une police web qui soit légère. Sérif pour les titres, et sans-sérif pour les paragraphes. Pour cela elle me laisse le choix de la police. Elle me fait confiance.
+ Elle veut du responsive, et elle a conscience de l’importance d’une présence  mobile, aujourd’hui.  Parmi les conditions que madame Chiara m’impose : il y a l’utilisation de son framework préféré : « bootstrap », mais aussi de la librairie « jQuery ». Bien sûr, le HTML5, et le CSS3, ainsi que le Javascript pour la fonctionnalité du menu-burger visible sur les Devices mobile et tablette. 
+Ces dernières technologies seront utiles pour le responsive et notamment pour le menu-burger. 
+Enfin, elle souhaite que son site soit pixel-perfect, mais Chiara a bien conscience de la difficulté que représente cette demande et souhaite donc me laisser une petite marge d’erreur.   C’est donc avec pas mal d’instruction à suivre que je ressors de notre entrevue. Riche d’un PSD et de nombreuse étapes que je commence l'intégration de son one-page. 
+
+Voici le lien vers le PSD gratuit accessible sur le site de freebiesbug.com, en ligne à l’adresse suivant : 
+
+https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/    
