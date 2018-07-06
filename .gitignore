@@ -38,7 +38,3 @@ testem.log
 .DS_Store
 Thumbs.db
 
-
-Package.json
-Package-lock.json
-.gitignore

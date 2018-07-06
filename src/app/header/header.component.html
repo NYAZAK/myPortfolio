@@ -1,0 +1,15 @@
+<mat-grid-list cols="6" rowHeight="100px">
+    <mat-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        [style.background]="tile.img"
+        >
+        bodsy
+        <mat-grid-tile-footer>
+            {{tile.name}}
+            {{tile.text}}
+        </mat-grid-tile-footer>
+        <a href="{{tile.lien}}" target="_blank" class="img-card-list"></a>
+    </mat-grid-tile>
+  </mat-grid-list>
