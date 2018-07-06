@@ -7,10 +7,31 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="!(isHandset$ | async)">
     <mat-toolbar color="primary">Menu</mat-toolbar>
+    <mat-card class="example-card">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title class="h4">Zakaria NYA</mat-card-title>
+        <mat-card-subtitle class="h5">Developpeur front-end</mat-card-subtitle>
+    </mat-card-header>  
+    <div class="social-lien">
+    <a class="nav-item nav-link" href="https://www.facebook.com/zakarianyadevfrontend" target="_blank">
+      <i class="fa fa-facebook  fa-2x" aria-hidden="true"></i>
+    </a> 
+    <a class="nav-item nav-link" href="https://www.linkedin.com/in/nya-zakaria-dev-front-end/" target="_blank">
+      <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+    </a> 
+    <a class="nav-item nav-link" href="https://twitter.com/NyaZakaria" target="_blank">
+      <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+    </a>
+    <a class="nav-item nav-link" href="https://github.com/NYAZAK" target="_blank">
+      <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+    </a>
+  </div>
+  </mat-card>
     <mat-nav-list>
-      <a mat-list-item href="#">Presentation</a>
-      <a mat-list-item href="#">Projets</a>
-      <a mat-list-item href="#">Contact</a>
+      <a mat-list-item routerLink='/'>Presentation</a>
+      <a mat-list-item routerLink='/Projets'>Projets</a>
+      <a mat-list-item routerLink='/Contact'>Contact</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -20,10 +41,17 @@
         aria-label="Toggle sidenav"
         mat-icon-button
         (click)="drawer.toggle()"
-        *ngIf="isHandset$ | async">
+        *ngIf="isHandset$">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Application Title</span>
+      <span class='m-auto'>{{titleApp}}</span>
+      <a matTooltip="Visualisez mon CV"
+      matTooltipClass="tooltip-pink"
+      class="nav-cv text-light"
+      href="../../assets/cv-dev-front-end.pdf" download="CV_Zakaria_NYA_Dev_Front_End" target="_blank">
+          <i class="material-icons md-48 md-light mt-3" >face</i>
+      </a>
     </mat-toolbar>
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

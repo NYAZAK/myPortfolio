@@ -9,12 +9,12 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent {
+  titleApp =  'Zakaria NYA Portfolio';
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
       map(result => result.matches)
     );
-    
   constructor(private breakpointObserver: BreakpointObserver) {}
-  
+
   }
