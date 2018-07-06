@@ -2,9 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Routes, RouterModule, Router} from '@angular/router';
 import { MatToolbarModule, MatCardModule,  MatButtonModule, MatSidenavModule, MatTooltipModule,
   MatIconModule, MatListModule, MatGridListModule, MatMenuModule } from '@angular/material';
@@ -23,13 +23,12 @@ const ROUTES: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
-  ],
-  imports: [
     NavigationComponent,
     HeaderComponent,
     ProjetsComponent,
     ContactComponent,
+  ],
+  imports: [
     BrowserModule,
     BrowserAnimationsModule,
     LayoutModule,
@@ -43,7 +42,6 @@ const ROUTES: Routes = [
     MatMenuModule,
     MatTooltipModule,
     RouterModule.forRoot(ROUTES),
-
   ],
   providers: [],
   bootstrap: [AppComponent]
