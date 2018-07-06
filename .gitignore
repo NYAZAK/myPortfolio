@@ -39,4 +39,6 @@ testem.log
 Thumbs.db
 
 
-node_modules/
+Package.json
+Package-lock.json
+.gitignore
