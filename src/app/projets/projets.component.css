@@ -3,3 +3,8 @@ mat-grid-tile.mat-grid-tile.ng-star-inserted{
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+
+.img-card-list{
+    width: 100%;
+    height: 100%;
+}
