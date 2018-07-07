@@ -8,6 +8,14 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+texts: {
+    moi: 'eerddddddddddddddd',
+    formations: 'erer',
+    expriences: 'erer',
+  };
+
+  age: number = 27;
+
   ngOnInit() {
   }
 }
