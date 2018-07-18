@@ -15,10 +15,9 @@ import { ContactComponent } from './contact/contact.component';
 
 
 const ROUTES: Routes = [
-  { path: '', component: HeaderComponent },
+  { path: 'header', component: HeaderComponent },
   { path: 'Projets', component: ProjetsComponent },
-  { path: 'Contact', component: ContactComponent },
-  { path: '*', redirectTo: HeaderComponent, pathMatch: 'full' }
+  { path: 'Contact', component: ContactComponent }
 ];
 @NgModule({
   declarations: [
